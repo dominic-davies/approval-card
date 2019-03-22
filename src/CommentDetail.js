@@ -1,4 +1,5 @@
 import React from 'react';
+import faker from 'faker';
 
 const CommentDetail = () => {
     return (
@@ -10,7 +11,7 @@ const CommentDetail = () => {
             <a href="/" className="author">
                 Stephen
             </a>
-            <div className="metada">
+            <div className="metadata">
                 <span className="date">Today at 6:00PM</span>
             </div>
             <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dignissimos dicta velit dolorem non perferendis!</div>
@@ -24,7 +25,7 @@ const CommentDetail = () => {
             <a href="/" className="author">
                 Stephen
             </a>
-            <div className="metada">
+            <div className="metadata">
                 <span className="date">Today at 6:00PM</span>
             </div>
             <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dignissimos dicta velit dolorem non perferendis!</div>
@@ -38,7 +39,7 @@ const CommentDetail = () => {
             <a href="/" className="author">
                 Stephen
             </a>
-            <div className="metada">
+            <div className="metadata">
                 <span className="date">Today at 6:00PM</span>
             </div>
             <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dignissimos dicta velit dolorem non perferendis!</div>
