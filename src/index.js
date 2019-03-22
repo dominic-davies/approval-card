@@ -8,9 +8,9 @@ const App = () => {
     return (
         <div className="ui container comments">
             
-            <CommentDetail author="Sam" />
-            <CommentDetail author="Alex" />
-            <CommentDetail author="Jane" />
+            <CommentDetail author="Sam" timeAgo="Today at 4:45PM" />
+            <CommentDetail author="Alex" timeAgo="Yesterday at 6:45PM" />
+            <CommentDetail author="Jane" timeAgo="Today at 9:45PM" />
         </div>
     );
     
