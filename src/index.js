@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import faker from 'faker';
+import CommentDetail from './CommentDetail';
 
 // Single component
 const App = () => {
     return (
         <div className="ui container comments">
-           
+            
+            <CommentDetail />
+            <CommentDetail />
+            <CommentDetail />
         </div>
     );
     
